@@ -1,0 +1,48 @@
+<PISI>
+    <Source>
+        <Name>python-nosexcover</Name>
+        <Packager>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Fork of nose.plugins.cover that enables XML output</Summary>
+        <Description xml:lang="en">A companion to the built-in nose.plugins.cover, this plugin will write out an XML coverage report to a file named coverage.xml.
+It will honor all the options you pass to the Nose coverage plugin, especially --cover-package.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-nosexcover</Name>
+        <Summary xml:lang="en">Fork of nose.plugins.cover that enables XML output</Summary>
+        <Description xml:lang="en">A companion to the built-in nose.plugins.cover, this plugin will write out an XML coverage report to a file named coverage.xml.
+It will honor all the options you pass to the Nose coverage plugin, especially --cover-package.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover-1.0.11-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover-1.0.11-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover-1.0.11-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover-1.0.11-py3.6.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover-1.0.11-py3.6.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover-1.0.11-py3.6.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover-1.0.11-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover/__pycache__/nosexcover.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover/__pycache__/tests.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover/nosexcover.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/nosexcover/tests.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-08-12</Date>
+            <Version>1.0.11</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Update>
+    </History>
+</PISI>

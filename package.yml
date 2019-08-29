@@ -1,0 +1,23 @@
+name       : python-nosexcover
+version    : 1.0.11
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/11/b3/2b9e812eb9cb7e60bbfff0a1f581bf411d5b55156e211a4e3580560c8902/nosexcover-1.0.11.tar.gz : 298c3c655da587f6cab8a666e9f4b150320032431062dea91353988d45c8b883
+license    : MIT
+component  : programming.python
+summary    : Fork of nose.plugins.cover that enables XML output
+description: |
+    A companion to the built-in nose.plugins.cover, this plugin will write out an XML coverage report to a file named coverage.xml.
+    It will honor all the options you pass to the Nose coverage plugin, especially --cover-package.
+builddeps  :
+    - python-coverage
+    - python-nose
+rundeps    :
+    - python-coverage
+    - python-nose
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test
